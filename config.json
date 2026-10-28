@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "file-organizer",
+      "title": "Organizador de Arquivos com Python",
+      "description": "Automatize a organização de arquivos por extensão usando pathlib e shutil",
+      "path": "assignments/file-organizer",
+      "dueDate": "2026-11-04",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
