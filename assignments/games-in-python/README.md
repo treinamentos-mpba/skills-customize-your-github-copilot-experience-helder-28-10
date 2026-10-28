@@ -1,19 +1,34 @@
 
-# 🎮 Desafio: Jogo da Forca
+# 📘 Assignment: Jogo da Forca
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+## 🎯 Objective
 
-## 🎯 O Que Você Vai Construir
+Pratique strings, listas, seleção aleatória, loops e condicionais em Python construindo um jogo da Forca. O programa deve permitir que a pessoa descubra uma palavra antes de esgotar as tentativas.
 
-Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
+## 📝 Tasks
 
-**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
+### 🛠️ Preparar a palavra e o estado do jogo
 
-## ✅ Requisitos Obrigatórios
+#### Descrição
+Use a lista de palavras fornecida no código inicial para escolher uma palavra secreta e preparar as informações necessárias para acompanhar a partida.
 
-Seu jogo deve:
-- Selecionar palavras aleatoriamente de uma lista predefinida
-- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
-- Rastrear tentativas incorretas restantes
-- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
-- Exibir mensagens de vitória/derrota
+#### Requisitos
+O programa concluído deve:
+
+- Selecionar uma palavra aleatoriamente da lista `words`.
+- Inicializar uma estrutura para registrar as letras já tentadas e definir o limite de palpites incorretos.
+- Exibir o progresso da palavra com letras ainda não descobertas representadas por `_`, separadas por espaços.
+
+### 🛠️ Processar palpites e encerrar a partida
+
+#### Descrição
+Implemente o loop principal para receber palpites, atualizar o progresso e terminar a partida quando a palavra for descoberta ou o limite de erros for atingido.
+
+#### Requisitos
+O programa concluído deve:
+
+- Solicitar um palpite de letra e comparar a entrada com a palavra secreta sem diferenciar maiúsculas de minúsculas.
+- Revelar todas as posições de uma letra correta e contabilizar palpites incorretos.
+- Atualizar e exibir o progresso e o número de tentativas incorretas restantes após cada palpite.
+- Encerrar quando todas as letras forem descobertas ou quando não houver mais tentativas incorretas.
+- Exibir uma mensagem indicando vitória ou derrota; em caso de derrota, revelar a palavra secreta.
